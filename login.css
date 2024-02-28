@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(bg.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+.container{
+    color: white;
+    position:absolute;
+    top:18%;
+    left:55%;
+}
+.container h1{
+    width:50%;
+    display:inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:40px;
+    border-bottom:5px double purple;
+    margin-bottom:15px;
+    padding: 13px 0px;
+}
+.Box{
+    width:100%; 
+    margin:32px 0px;
+    border-bottom:2px solid purple;
+}
+.Box input{
+    background: none;
+    padding: 5px 10px;
+    width:75%;
+    font-size:20px;
+    border:none;
+    outline:none;
+    color:white;
+    
+}
+.Box i{
+    width:25px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    cursor:pointer;
+    outline:none;
+    width:30%;
+    margin:10px 0;
+    padding: 6px;
+    border: 2px solid purple;
+    border-radius:10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color:purple;
+    background:white;
+}
